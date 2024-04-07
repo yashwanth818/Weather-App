@@ -1,0 +1,78 @@
+
+
+html, body{
+    margin: 0;
+    font-family: Ubuntu;
+    height: 100%;
+    background-image: url('./pixlr-image-generator-e65fe7b8-d39c-4135-a27e-044607cef96a.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.city{
+
+    font-size: 2rem;
+}
+.temparature{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.discription{
+    font-size: 3rem;
+}
+.bottom {
+    display: flex; 
+  }
+  
+  .box {
+    text-align: center;
+    width: 100px; 
+    height: 100px; 
+    background-color: #ccc; 
+    margin: 0 10px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgba(255, 255, 255, 0.3); 
+    border: 2px solid black; 
+    border-radius: 10px;
+  }
+
+  .container {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    
+  }
+  
+  .top, .mid, .bottom {
+padding: 1rem;
+  }
+  .min{
+    text-align: left;
+  }
+
+
+  .custom-input  {
+    width: 200px; 
+    height: 40px; 
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid black; 
+    border-radius: 10px; 
+    padding: 10px;
+    box-sizing: border-box; 
+  }
+
+
+.custom-submit{
+    width: 60px; 
+    height: 40px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid black;
+    border-radius: 10px;
+}
